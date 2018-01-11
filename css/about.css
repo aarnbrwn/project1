@@ -1,0 +1,106 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.wrapper {
+  height: 100%;
+  margin: 0;
+}
+
+.menu {
+ display: inline-block;
+ position: relative;
+ width: 100%;
+ color: black;
+}
+
+li {
+ list-style: none;
+ position: absolute
+}
+
+a {
+ text-decoration: none;
+ color: black;
+}
+
+#home {
+  position: absolute;
+  left: 60%;
+}
+
+#contact {
+  position: absolute;
+  left: 80%;
+}
+
+h1 {
+  margin-left: 10%;
+}
+
+img {
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+  float: right;
+}
+
+p {
+  
+}
+
+
+@media (max-width: 480px) {
+
+  h1 {
+    position: absolute;
+    left: 30%;
+    top: 20%
+  }
+
+  img {
+    margin: 10% auto;
+  }
+
+  #home {
+    position: absolute;
+    left: 10%;
+    top: 10%;
+  }
+
+  #contact {
+    position: absolute;
+    right: 15%;
+    top: 10%;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+  #home {
+    position: absolute;
+    left: 70%;
+  }
+
+  #contact {
+    position: absolute;
+    left: 85%;
+  }
+}
+
+@media (min-width: 993px) and (max-width: 1400px) {
+  #about {
+    position: absolute;
+    left: 75%;
+  }
+
+  #contact {
+    position: absolute;
+    left: 85%;
+  }
+}
