@@ -8,33 +8,27 @@ body {
   height: 100vh;
   max-width: 100%;
   /* border: 2px solid red; */
-  font-family: cursive;
+  font-family: 'Ranga', cursive;
   font-size: 1.125rem;
-  background: rgb(255, 253, 239);
+  background: rgb(249, 246, 217);
 }
 
 .wrapper {
   width: 100%;
   margin: 0 auto;
+  text-align: center;
   font-size: 2rem;
+  position: relative;
   top: 5%
-}
-
-h1 {
-  margin-left: 5%;
-  width: 100%;
 }
 
 ul {
   list-style-type: none;
-  float: right;
-
 }
 
 li {
   width: 100%;
   text-align: center;
-  float: left;
 }
 
 ul a {
@@ -46,27 +40,10 @@ a:hover {
   color: green;
 }
 
-img {
-  width: 60%;
-  display: block;
-  margin: 0 auto;
-}
-
 @media (max-width: 480px) {
   .wrapper {
-    position: relative;
     top: 10%;
-    text-align: center;
     font-size: 1.25rem
-  }
-
-  img {
-    width: 50%;
-    border-radius: 35%;
-  }
-
-  ul {
-    float: none;
   }
 
   li {
@@ -76,6 +53,7 @@ img {
 }
 @media (min-width: 481px) and (max-width: 768px) {
   .wrapper {
+    top: 13%;
     font-size: 1.45rem;
   }
 }
